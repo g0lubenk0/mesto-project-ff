@@ -1,0 +1,41 @@
+{
+  "name": "mesto-project-ff",
+  "version": "1.0.0",
+  "description": "https://github.com/g0lubenk0/mesto-project-ff",
+  "homepage": "https://github.com/g0lubenk0/mesto-project-ff#readme",
+  "bugs": {
+    "url": "https://github.com/g0lubenk0/mesto-project-ff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g0lubenk0/mesto-project-ff.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
