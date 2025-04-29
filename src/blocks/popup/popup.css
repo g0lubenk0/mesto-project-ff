@@ -21,3 +21,12 @@
   right: 0;
   z-index: 10;
 }
+
+.popup_type_avatar .popup__content {
+  width: 430px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 34px 36px;
+  box-sizing: border-box;
+  position: relative;
+}
